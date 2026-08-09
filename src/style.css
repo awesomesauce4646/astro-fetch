@@ -1,0 +1,66 @@
+body {
+  margin: 10px;
+  background-image: url('assets/background.jpg');
+  background-size: cover;
+}
+
+.bagel-fat-one-regular {
+  font-family: "Bagel Fat One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1  {
+  font-family: "Bagel Fat One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  animation: fadeIn 1000ms ease-in-out;
+}
+
+img, video, iframe {
+  border-style: solid;
+  border-width: 2.5px;
+  border-color: white;
+  border-radius: 5px;
+  animation: fadeIn 1000ms ease-in-out;
+}
+
+.inline {
+  display: flex;
+  align-items: center;
+}
+
+#datepicker {
+  margin-left: 30px;
+  height: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.animation {
+  animation: fadeIn 1000ms ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%
+  }
+}
